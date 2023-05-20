@@ -396,7 +396,7 @@ $(document).ready(function() {
     },
     eventClick: function(calEvent, jsEvent, view) {
       // Acción al hacer clic en un evento (cita)
-      alert('Título: ' + calEvent.title + '\nInicio: ' + calEvent.start.format('HH:mm DD-MM-YYYY') + '\nFin: ' + calEvent.end.format('HH:mm DD-MM-YYYY'));
+      alert('Título: ' + calEvent.title + '\nInicio: ' + calEvent.start.format('YYYY-MM-DD HH:mm') + '\nFin: ' + calEvent.end.format('YYYY-MM-DD HH:mm'));
     }
   });
 
@@ -412,8 +412,8 @@ $(document).ready(function() {
     if (title && start && end) {
       var event = {
         title: title,
-        start: moment(start).format('HH:mm DD-MM-YYYY'),
-        end: moment(end).format('HH:mm DD-MM-YYYY')
+        start: moment(start).format('YYYY-MM-DD HH:mm'),
+        end: moment(end).format('YYYY-MM-DD HH:mm')
       };
 
       $('#calendar').fullCalendar('renderEvent', event, true);
