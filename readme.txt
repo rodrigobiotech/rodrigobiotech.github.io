@@ -5,6 +5,7 @@
 Este proyecto busca desarrollar un sistema web que facilite el seguimiento médico de pacientes, especialmente enfocado en adultos mayores y sus familiares responsables. El objetivo es mejorar la gestión de datos médicos, agilizar la atención médica y proporcionar una interfaz amigable para usuarios no expertos en salud.
 
 ## Despliegue y Visualización:
+- El repositorio de trabajo con commits de compañeros se encuentra disponible en https://github.com/rodrigobiotech/sprint_2 .
 - El sistema desarrollado se encuentra disponible en línea para su visualización y prueba. Puedes acceder a él desde https://rodrigobiotech.github.io/ .
 - Recuerda que para ingresar al sistema privado de cada paciente, debes hacer login utilizando el mismo usuario y contraseña.
 
